@@ -1,0 +1,221 @@
+/* Background styling for the body */
+body {
+    background-image: linear-gradient(to right, rgb(41, 83, 207), rgb(134, 77, 148));
+}
+
+/* Styling for the login container */
+.container_lgn {
+    background-color: rgb(250, 252, 254);
+    width: 30%; /* Width of the container */
+    border: 1px solid #62f0bf; /* Border style */
+    padding: 20px; /* Padding inside the container */
+    margin: 10px; /* Margin around the container */
+    padding: auto; /* Auto padding */
+    position: absolute; /* Absolute positioning */
+    top: 15%; /* Position from the top of the viewport */
+    left: 35%; /* Position from the left of the viewport */
+    border-radius: 5px; /* Border radius for rounded corners */
+}
+
+/* Styling for email label */
+.email_lbl {
+    margin-bottom: 5px; /* Bottom margin */
+    margin-left: 15px; /* Left margin */
+}
+
+/* Styling for email input */
+.email_lgn {
+    width: 90%; /* Width of the input */
+    height: 30px; /* Height of the input */
+    margin-left: 15px; /* Left margin */
+    margin-top: 0px; /* Top margin */
+    flex: content; /* Flex content alignment */
+    justify-content: center; /* Center justification */
+}
+
+/* Styling for password label */
+.password_lbl {
+    margin-bottom: 5px; /* Bottom margin */
+    margin-left: 15px; /* Left margin */
+}
+
+/* Styling for password input */
+.password_lgn {
+    width: 90%; /* Width of the input */
+    height: 30px; /* Height of the input */
+    margin-left: 15px; /* Left margin */
+    margin-top: 0px; /* Top margin */
+    flex: content; /* Flex content alignment */
+    justify-content: center; /* Center justification */
+}
+
+/* Styling for password validation message container */
+#message {
+    margin-left: 15px; /* Left margin */
+}
+
+/* Styling for paragraphs inside password validation message */
+#message p {
+    margin-left: 50px; /* Left margin */
+}
+
+/* Additional styling for registration form password validation message */
+#message1 {
+    margin-left: 15px; /* Left margin */
+}
+
+/* Additional styling for paragraphs inside registration form password validation message */
+#message1 p {
+    margin-left: 50px; /* Left margin */
+}
+
+/* Styling for valid inputs (green text color and checkmark) */
+.valid {
+    color: green; /* Green text color */
+}
+
+.valid:before {
+    position: relative; /* Relative positioning for pseudo-element */
+    left: -35px; /* Position adjustment */
+    content: "✔"; /* Checkmark content */
+}
+
+/* Styling for invalid inputs (red text color and x) */
+.invalid {
+    color: red; /* Red text color */
+}
+
+.invalid:before {
+    position: relative; /* Relative positioning for pseudo-element */
+    left: -35px; /* Position adjustment */
+    content: "✖"; /* Cross mark content */
+}
+
+/* Styling for forgotten password link */
+.forget_pwd {
+    margin: 10px; /* Margin */
+    margin-left: 15px; /* Left margin */
+}
+
+/* Styling for login button */
+.login_btn {
+    width: 90%; /* Width of the button */
+    height: 35px; /* Height of the button */
+    margin-top: 35px; /* Top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    margin-left: 17px; /* Left margin */
+    background-color: rgb(111, 111, 239); /* Background color */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold font */
+    font-size: medium; /* Font size */
+    border: 0px; /* No border */
+    border-radius: 25px; /* Border radius for rounded corners */
+}
+
+.login_btn:hover {
+    background-color: rgb(80, 80, 222);
+}
+
+/* Styling for signup button */
+.signup_btn {
+    margin: 0px; /* Margin */
+    height: 30px; /* Height of the button */
+    background-color: white; /* Background color */
+    border: none; /* No border */
+    color: rgb(65, 65, 223); /* Text color */
+}
+
+/* Styling for registration container */
+.container_register {
+    background-color: rgb(250, 252, 254); /* Background color */
+    width: 30%; /* Width of the container */
+    border: 1px solid #62f0bf; /* Border style */
+    padding: 20px; /* Padding inside the container */
+    margin: 10px; /* Margin around the container */
+    margin-bottom: 20px; /* Bottom margin */
+    padding: auto; /* Auto padding */
+    position: absolute; /* Absolute positioning */
+    top: 10%; /* Position from the top of the viewport */
+    left: 35%; /* Position from the left of the viewport */
+    border-radius: 5px; /* Border radius for rounded corners */
+}
+
+/* Styling for name input */
+.name {
+    width: 90%; /* Width of the input */
+    height: 30px; /* Height of the input */
+    margin-left: 15px; /* Left margin */
+    margin-top: 0px; /* Top margin */
+    flex: content; /* Flex content alignment */
+    justify-content: center; /* Center justification */
+}
+
+/* Styling for name label */
+.name_lbl {
+    margin-bottom: 5px; /* Bottom margin */
+    margin-left: 15px; /* Left margin */
+}
+
+/* Styling for registration button */
+.Register_btn {
+    width: 42%; /* Width of the button */
+    height: 35px; /* Height of the button */
+    margin: 10px; /* Margin */
+    float: left;
+    margin-top: 20px; /* Top margin */
+    margin-left: 17px; /* Left margin */
+    background-color: rgb(111, 111, 239); /* Background color */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold font */
+    font-size: medium; /* Font size */
+    border: 0px; /* No border */
+    border-radius: 10px; /* Border radius for rounded corners */
+}
+
+.Register_btn:hover {
+    background-color: rgb(80, 80, 222);
+}
+
+.login_btn1 {
+    width: 42%; /* Width of the button */
+    height: 35px; /* Height of the button */
+    margin: 20px; /* Top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    margin-left: 10px; /* Left margin */
+    background-color: rgb(111, 111, 239); /* Background color */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold font */
+    font-size: medium; /* Font size */
+    border: 0px; /* No border */
+    float: right;
+    border-radius: 10px; /* Border radius for rounded corners */
+}
+
+.login_btn1:hover {
+    background-color: rgb(80, 80, 222);
+}
+
+/* Styling for hover effect on signup button */
+.signup_btn:hover {
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Styling for success message */
+#success {
+    color: rgb(110, 190, 110); /* Greenish color */
+    display: flex; /* Flex display */
+    justify-content: center; /* Center justification */
+    margin: 10px; /* Margin */
+    display: none; /* Initially hidden */
+}
+
+/* Styling for warning message */
+#warning {
+    color: rgb(236, 12, 12); /* Reddish color */
+    display: flex; /* Flex display */
+    margin-left: 15px; /* Left margin */
+    justify-content: center; /* Center justification */
+    margin: 10px; /* Margin */
+    display: none; /* Initially hidden */
+}
+
